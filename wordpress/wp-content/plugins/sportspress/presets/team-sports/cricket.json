@@ -1,0 +1,61 @@
+{
+	"name":				"Cricket",
+	"positions": [
+						"Batsman",
+						"Bowler"
+	],
+	"outcomes": [
+						{ "name" : "Win", "condition" : ">" },
+						{ "name" : "Loss", "condition" : "<" },
+						"Draw",
+						{ "name" : "Tie", "condition" : "=" }
+	],
+	"results": [
+						{ "name" : "1st", "description" : "1st inning runs" },
+						{ "name" : "2nd", "description" : "2nd inning runs" },
+						{ "name" : "3rd", "description" : "3rd inning runs" },
+						{ "name" : "4th", "description" : "4th inning runs" },
+						{ "name" : "BP", "description" : "Bonus points" },
+						{ "name" : "Points", "description" : "Total points", "primary" : 1 }
+	],
+	"performance": [
+						{  "name" : "R", "id" : "runs", "position" : "Batsman", "description" : "Runs" },
+						{  "name" : "B", "position" : "Batsman", "description" : "Balls" },
+						{  "name" : "4s", "position" : "Batsman", "description" : "Fours" },
+						{  "name" : "6s", "position" : "Batsman", "description" : "Sixes" },
+						{  "name" : "O", "position" : "Bowler", "description" : "Overs Bowled" },
+						{  "name" : "M", "position" : "Bowler", "description" : "Maidens" },
+						{  "name" : "R", "position" : "Bowler", "description" : "Runs" },
+						{  "name" : "W", "position" : "Bowler", "description" : "Wickets" }
+	],
+	"columns": [
+						{ "name" : "P", "equation" : "$eventsplayed", "description" : "Matches played" },
+						{ "name" : "W", "equation" : "$win", "priority" : 2, "description" : "Wins" },
+						{ "name" : "L", "equation" : "$loss", "description" : "Losses" },
+						{ "name" : "D", "equation" : "$draw", "description" : "Draws" },
+						{ "name" : "T", "equation" : "$tie", "description" : "Ties" },
+						{ "name" : "BP", "equation" : "$bp", "description" : "Bonus points" },
+						{ "name" : "Points", "equation" : "$points", "priority" : 1, "description" : "Total points" }
+	],
+	"metrics": [
+						"Height",
+						"Weight",
+						"Bat Brand"
+	],
+	"statistics": [
+						{ "name" : "Mat", "equation" : "$eventsplayed", "description" : "Matches played" },
+						{ "name" : "Avg", "equation" : "$eventsplayed", "description" : "Average" },
+						{ "name" : "SR", "equation" : "$runs / $b * 100", "precision" : 2, "description" : "Strike Rate" }
+	],
+	"options": {
+						"event_teams" : "2",
+						"event_show_players" : "yes",
+						"event_show_extras" : "yes",
+						"event_show_total" : "yes",
+						"sportspress_event_performance_mode" : "values",
+						"event_show_player_numbers" : "no",
+						"event_split_players_by_team" : "yes",
+						"event_split_players_by_position" : "yes",
+						"sportspress_event_total_performance" : "primary"
+	}
+}
