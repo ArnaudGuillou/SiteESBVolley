@@ -1,0 +1,47 @@
+<?php 
+// Translation strings
+__('s', 'framework');
+__('i', 'framework');
+__('c', 'framework');
+__('b', 'framework');
+__('3', 'framework');
+__('t', 'framework');
+__('5', 'framework');
+__('r', 'framework');
+__('f', 'framework');
+__('v', 'framework');
+__('A', 'framework');
+__('s', 'framework');
+__('i', 'framework');
+__('c', 'framework');
+__('b', 'framework');
+__('3', 'framework');
+__('t', 'framework');
+__('5', 'framework');
+__('r', 'framework');
+__('f', 'framework');
+__('v', 'framework');
+__('A', 'framework');
+__('s', 'framework');
+__('i', 'framework');
+__('c', 'framework');
+__('b', 'framework');
+__('3', 'framework');
+__('t', 'framework');
+__('5', 'framework');
+__('r', 'framework');
+__('f', 'framework');
+__('v', 'framework');
+__('A', 'framework');
+__('s', 'framework');
+__('i', 'framework');
+__('c', 'framework');
+__('b', 'framework');
+__('3', 'framework');
+__('t', 'framework');
+__('5', 'framework');
+__('r', 'framework');
+__('f', 'framework');
+__('v', 'framework');
+__('A', 'framework');
+?>

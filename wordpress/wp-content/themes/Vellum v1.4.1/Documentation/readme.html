@@ -1,0 +1,647 @@
+<!DOCTYPE HTML>
+
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>Vellum by Parallelus - Documentation</title>
+<style type="text/css" media="screen">
+	body { font:14px/22px "Open Sans", "Segoe UI", sans-serif; color:#333; }
+	a:link,a:visited { color:#06c; }
+	a:hover,a:active { color:#09d; }
+	h1,h2,h3,h4,h5,h6 { margin:22px 0; line-height:1em; }
+	h1 { font-size: 32px; }
+	h2 { font-size: 28px; }
+	h3 { font-size: 18px; background: #f0f0f0; padding: 3px 11px 5px; line-height: 32px; border-radius: 2px; }
+	h4 { font-size: 22px; }
+	h5 { font-size: 18px; }
+	h6 { font-size: 16px; }
+	h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
+		font-size: .75em;
+		font-weight: 400;
+		color: #999;
+		margin: 0 0 0 12px;
+		top: -3px;
+		position: relative;
+	}
+	p { margin:0 0 22px; }
+	hr { background-color: #E3E3E3; border:0; height:1px; margin: 22px 0; }
+	code,.code { font:12px/1.3 "Courier New",Courier,monospace; background-color:#eee; padding:0 1px; color:#555; }
+	pre { padding:15px 0; white-space:pre; white-space:pre-wrap; word-wrap:break-word; }
+	pre code { overflow-x:auto; display:block; margin:0 0 15px; padding:18px; line-height:18px; font-size:13px; clear:both; color:#222; border:solid 1px #ddd; background:#F6F6F6 url(images/pre-code-bg.gif) repeat 0 0; -webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px; }
+	a img { border: 0; }
+	#Wrapper { width:1000px; margin:0 auto; }
+	#Content { width:750px; margin:0 0 0 250px; }
+	#Content img { max-width: 100%; height: auto; box-shadow: 0 1px 4px rgba(0,0,0,.3); }
+	#Content img.no-shadow { box-shadow: none !important; }
+	#Content img.align-left { float: left; margin-right: 22px; margin-bottom: 22px }	
+	#Content img.align-right { float: right; margin-left: 22px; margin-bottom: 22px }	
+	#Content a[href="#top"] { text-decoration: none; font-size: 12px; font-weight: normal; text-transform: uppercase; margin: 2px 0 0; float: right;}
+	#TOC { float:left; position:fixed; top:0; bottom:0; margin:0; padding: 22px; background:#eee; }
+	table,hr,.box { margin-bottom:25px; }
+	.sectionDivider { margin:0 0 50px; }
+	.sectionMargin { display:block; margin:0; padding:0 0 11px; }
+	.box p { margin-bottom:10px; }
+	.note { 
+		color: #79563A;
+		font-weight: 700;
+		background: #FFFAE2;
+		padding: 11px;
+		border-radius: 2px; }
+	.small { font-size:.9em; }
+	.clear { clear:both; }
+	.file { font-family:"Courier New",Courier,monospace; font-weight:700; }
+	#content ul { margin-top:20px; }
+	#content li { margin-top:15px; }
+</style>
+</head>
+<body>
+<div id="Wrapper"> <a name="top" style="position: absolute; top: 0;"></a>
+	<div id="TOC"> <a name="TOC"></a>
+		<p style="margin: 0 0 22px 0;"><a href="#top"><img src="images/screenshot.png" alt="Vellum" style="max-width: 175px; height: auto;"></a></p>
+		<p><strong>Table of Contents</strong></p>
+		<ul style="margin: 0px; padding: 0; list-style-type: none; line-height: 1.8;">
+			<li><a href="#about">About The Theme</a></li>
+			<li><a href="#install">Installation</a></li>
+			<li><a href="#appearance">Appearance</a></li>
+            <li><a href="#settings">Settings</a></li>
+			<li><a href="#portfolio">Portfolios</a></li>
+			<li><a href="#static_blocks">Static Blocks</a> </li>
+			<li><a href="#css">CSS Files</a></li>
+			<li><a href="#skin">Skinning the Theme</a></li>
+			<li><a href="#special">Special Features</a></li>
+			<li><a href="#plugins">Plugins</a></li>
+			<li><a href="#suport">Support</a></li>
+		</ul>
+	</div>
+	<div id="Content">		
+		<h1>Vellum - WordPress Theme</h1>
+		<div>
+			<p>
+				<strong>
+					Created: February 21, 2014<br />
+					By: <a href="http://goo.gl/HqQ4dR" target="_blank">Parallelus</a><br />
+				</strong>
+			</p>
+			<p>Thank you for purchasing this theme. We take great pride in creating our products and are excited you have chosen our theme for your website. Our hope is for the theme to take the hard work out of building a website so you can focus on growing your business instead of developing a website. We hope you get as much enjoyment from using the theme as we did creating it. </p>
+			<p>Feedback and suggestions are always welcomed so don't hesitate to leave comments. If you have questions not answered by this document, please email me using my profile <a href="http://themeforest.net/user/Parallelus" target="_blank">contact form</a> or visit the <a href="http://para.llel.us/support/" target="_blank">Help Center</a>. If you are happy with the theme please take a moment to rate it on the ThemeForest website.</p>
+			<p>Thank you,<br> The Parallelus Team</p>
+		</div>
+
+
+
+		<a name="about" class="sectionMargin"></a>
+		<h3><strong>About The Theme</strong> <a href="#top">top</a></h3>
+		<p>This theme is designed for use with WordPress v3.8 or higher. The code was written to be backwards compatible where possible, however we recommend you use the current WP version when possible. If you are not using WordPress 3.8 or higher and can upgrade your site we recommend you do this before installation.
+		<p>Although every effort has been made to ensure the theme is bug free and easy to use there is always a chance errors may occur. If you do find a problem please notify us immediately through the <a href="http://themeforest.net/user/Parallelus" target="_blank">ThemeForest account page</a> or our <a href="http://para.llel.us/support/" target="_blank">Help Center</a> so we can ensure it gets fixed as quickly as possible.</p>
+		<h4>Theme Support</h4>
+		<p><strong>Visit our <a href="http://para.llel.us/support/" target="_blank">Help Center</a> for theme support.</strong></p>
+		<p>If you find yourself needing help, visit our <a href="http://para.llel.us/support/" target="_blank">Help Center</a>. You can find many articles, written and video tutorials on the <a href="http://para.llel.us/support/" target="_blank">Help Center</a>.</p>
+		<a name="install" class="sectionMargin"></a>
+		<h3><strong>Installation</strong> <a href="#top">top</a></h3>
+		<p>Installing the theme can be done two ways. You can upload the theme ZIP file using the built in WordPress theme upload, or copy the files through an FTP client.</p>
+		<h5>1) Using WordPress Theme Upload</h5>
+		<p class="note">Be sure to extract the file "<span class="file">theme-vellum.zip</span>"  from the ThemeForest download before uploading. Using the ThemeForest ZIP file directly will result in a "Missing Style Sheet" error.</p>
+		<ol>
+			<li>Login to your WordPress admin.</li>
+			<li>In the <strong>"Appearance &gt; Themes"</strong> menu click the tab <strong>"Install Themes"</strong></li>
+			<li>At the top of the page click, <strong>"Upload"</strong>, then click the file input to select a file.</li>
+			<li>Select the zipped theme file, "<span class="file">theme-vellum.zip</span>", and click <strong>"Install Now"</strong></li>
+			<li>After installation you will receive a success message confirming your new install.<strong></strong></li>
+			<li>Click the link <strong>"Activate"</strong></li>
+		</ol>
+		<h5>2) Uploading by FTP</h5>
+		<ol>
+			<li>Login to your FTP server and navigate to your WordPress themes directory. <br>
+				Normally this would be <strong>"wp-content/themes"</strong></li>
+			<li>Extract the files from the zipped theme.</li>
+			<li>Copy the folder "<span class="file">parallelus-vellum</span>" to your themes directory.</li>
+			<li>After the files finish uploading, login to your WordPress admin.</li>
+			<li>In the <strong>"Appearance"</strong> menu click <strong>"Themes"</strong></li>
+			<li>Click <strong>"Activate"</strong> for the theme <strong>"Vellum"</strong></li>
+		</ol>
+
+		<hr>
+
+		<h5><strong>Activate the Theme</strong></h5>
+		<p>Once the theme is installed, activate it from &quot;<strong>Appearance &gt; Themes</strong>&quot; by clicking the &quot;<strong>Activate</strong>&quot; link for &quot;<strong>Vellum</strong>&quot;.</p>
+
+		<hr>
+
+		<h5>Demo Data and Starter Kits <span>(Optional)</span></h5>
+		<p>You can import any demo styles you choose from the <strong>"Appearance > Demo Content"</strong> area by selecting one of the <strong>Starter Kits</strong> and sleecting "<strong>Apply with Demo Content</strong>" which will set the theme options, layouts and other theme specific settings for that style as well as import the demo content and menus at the same time. If you've already imported the demo content and only want to activate a different Starter Kit, click the "<strong>Apply</strong>" button.</p>
+		
+		<p>If you prefer the full demo content file, it is available by request. To get a copy, please go to our <a href="http://para.llel.us/support/" target="_blank">Help Center</a> where we can provide access to this file.</p>
+
+		<p class="note"><span style="font-size:1.2em">Setting the Home Page:</span> <br><br><span style="font-weight: 400">After installing the demo content you may need to specify the home page content in your WordPress settings. Go to <strong>"Settings &gt; Reading"</strong> and set the options for <strong>"Front page displays"</strong> to <strong>"A static page"</strong>. Next in the <strong>"Front page"</strong> select choose <strong>"Home Page"</strong> and in the <strong>"Posts page"</strong> select <strong>"Blog"</strong>. Once this is done your site should replicate the demo.</span>
+		<br><br><span style="font-size:1.2em">Assigning a Menu:</span> <br><br><span style="font-weight: 400">The demo content also includes several menus. The theme need a primary menu to be assigned from the <strong>"Appearance &gt; Menus"</strong> screen of your WordPress admin. Go to Menus area and select the option <strong>"Main Menu"</strong> from the area labeled <strong>"Select a menu to edit"</strong> and click the <strong>"Select"</strong> button. Next scroll to the bottom of the menu and in the <strong>"Menu Settings"</strong> select the option for <strong>"Theme locations"</strong> labeled as <strong>"Primary Menu"</strong> and save the menu.
+		<br><br>To enable the mega menus you should expand the individual top level menu items, expand the button <strong>"Show/Hide UberMenu Options"</strong> and select the option <strong>"Activate Mega Menu"</strong>. Do this for each of the top level menu items you want to have a mega menu display and save the menu.
+		<br><br>Now the site will display this is done your site should replicate the demo.</span></p>
+
+		<hr>
+
+		<h5>Finished with Installation?</h5>
+		<p>Once the theme is installed you can configure it for your content. See the sections below on configuring the theme  to start adding your content.</p>
+		
+
+		<a name="appearance" class="sectionMargin"></a>
+		<h3><strong>Appearance</strong> <a href="#top">top</a></h3>
+		<p>This section provides a brief overview of the theme options, setup and configuration. It will help you get started quickly by introducing the theme structure and settings. After activation several new menus will appear in your admin under the sections, &quot;<strong>Appearance</strong>&quot; and &quot;<strong>Settings</strong>&quot;.</p>
+
+		<hr>
+
+		<blockquote>
+
+			<h5><strong>Theme Options</strong> <span>(Appearance &gt; Theme Options)</span></h5>
+			<p>To start, configure some of the default design settings found in <strong>"Appearance &gt; Theme Options"</strong> area. Set the options to customize your site.</p>
+			<ol>
+				<li><strong>Logo</strong></li>
+				<li><strong>Favorites Icon</strong></li>
+				<li><strong>Layout Style</strong> (full width or boxed; masthead top, left and right)</li>
+				<li><strong>Skins</strong></li>
+				<li><strong>Accent Colors</strong></li>
+				<li><strong>Link Colors</strong></li>
+				<li><strong>Image Hover Effects</strong></li>
+				<li><strong>Breadcrumbs</strong></li>
+				<li><strong>Custom Scrollbars</strong></li>
+				<li><strong>Background Colors and Images</strong></li>
+				<li><strong>Font Styles and Colors</strong></li>
+				<li><strong>Google Fonts</strong></li>
+			</ol>
+			<p>You can override defauls theme options from a custom header, footer or layout. This allows you to customize sections of your site with unique colors, images and styles.</p>
+			<p>You will find a number of other settings available in this area including skin selection, fonts, custom CSS and custom JavaScript. Use these as needed to customize the look and feel of your site.</p>
+			<p><img src="images/theme-options-main.png" alt="Theme Options"></p>
+
+			<h5><strong>Sidebars</strong> <span>(Appearance &gt; Sidebars)</span></h5>
+			<p>Create custom sidebars for adding widgets, assign to layouts and inserting with shortcodes.</p>
+			<p>New sidebars instantly appear in the "Widgets" area of your admin. To integrate a sidebar into one of your pages you can assign it to a layout from "Appearance &gt; Layout Manager" or use the shortcode, <code>[sidebar alias="sidebar-alias"]</code></p>
+			<p><img src="images/sidebars.png" alt="Sidebars"></p>
+
+			<h5><strong>Layout Manager</strong> <span>(Appearance &gt; Layout Manager)</span></h5>
+			<p>Build custom layouts. Each layout can have a custom Header, Footer, Skin and Layout style (boxed or full width). Layouts can be assigned to your pages, posts, categores and other site areas.</p>
+			<p><img src="images/layout-manager.png" alt="Layout Manager"></p>
+			<p class="note">Every layout should have one "Default Content" area. This sets the location of the main content. If not included it will be added to the end of your layout.</p>
+			<p><img src="images/layout-manager-column-drag.png" alt="Layout Manager" class="align-left">The columns in your layouts can be dragged left and right to create different width columns.</p>
+			<p>Layouts are designed to create the default structure of your site. They specify the source of content such as sidebars and Static Blocks. These are structural forms to designate the column structure, they are not intended for building the page content. That should be done from the page, post, etc. We've integrated the WP Bakery Visual Composer plugin into the theme for content building functionality. Think of the Layout Manager as the the structural framework for your site's content and Visual Composer as your content editing tool.</p>
+
+			<div class="clear"></div>
+			<h5><strong>UberMenu Lite</strong> <span>(Appearance &gt; UberMenu)</span></h5>
+			<p>Select your default options for the mega-menu functionality. Individual menu item settings can be done from the WordPress menu manager under the options for each item.</p>
+			<p>For detailed UberMenu documentation: <a href="http://sevenspark.com/docs/ubermenu" title="UberMenu Help" target="_blank">UberMenu Help</a> and <a href="http://sevenspark.com/docs/ubermenu-video-tutorials" title="UberMenu Video Tutorials" target="_blank">UberMenu Video Tutorials</a></p>
+			<p><img src="images/ubermenu-config.png" alt="UberMenu" class="no-shadow"></p>
+
+			<blockquote>			
+				<p><strong>What's UberMenu Lite?</strong></p>
+				<p>The theme includes UberMenu Lite, a custom verson of UberMenu with core mega-menu functionality including titles, descriptions, columns, rows and icons using <a href="http://fortawesome.github.io/Font-Awesome/" target="_blank">Font Awesome</a> class names. We worked directly with SevenSpark, the creator of UberMenu, to develop UberMenu Lite and include it in our themes. The Lite version provides the theme specific mega menu features.</p>
+				<p><strong>Should I ugprade to the full Pro version?</strong></p>
+				<p>You can install the Pro version for advanced features such as Images, Widgets, Custom HTML Content, Google Maps, and much more. The theme is designed to instantly integrate with Pro installs. If you already own a copy of the UberMenu plugin, simply update to the latest version and you're ready to go.</p>
+				<p>If you don't already have UberMenu Pro but want some of those awesome features you can get your copy here: <a href="http://wpmegamenu.com/" target="_blank">UberMenu - WordPress Mega Menu Plugin</a>.</p>
+			</blockquote>
+
+			<h5><strong>Menus</strong> <span>(Appearance &gt; Menus)</span></h5>
+			<p>To create a menu or attach an existing menu to the theme, go to &quot;<strong>Appearance &gt; Menus</strong>&quot;. </p>
+			<p><img src="images/menus-new.png" alt="Add New Menu"></p>
+			<p><img src="images/menus-theme-locations.png" alt="Menu Locations" class="align-left">Attach the menu by setting the "Theme Location" in your Menu Settings.</p>
+			<p>If you imported the demo content you will have sample menus already listed. Select the desired menu and load it by clicking the <strong>"Select"</strong> button. Scroll to the bottom of the menu and select it as the  <strong>"Primary Menu"</strong> and save the menu.</p>
+			<p><a href="http://codex.wordpress.org/Appearance_Menus_Screen" target="_blank">Learn more about WordPress Menus</a></p>
+			<div class="clear"></div>
+			<p><img src="images/ubermenu-options.png" alt="UberMenu Options" class="align-left no-shadow"> Within each menu item you will have additional settings for UberMenu Options. Click the red toggle, "Show/Hide UberMenu Options" to display the options. Depending on the menu items location the options may vary. Some settings only apply to top level items, other are specific to sub-menu items. UberMenu will automatically detect the position of the menu item and show only the options that apply.</p>
+			<p>You can add icons to your menu items by specifying an icon class in the "Icon" field. Any <a href="http://fortawesome.github.io/Font-Awesome/" target="_blank">Font Awesome</a> icon class can be used. For example, you could add the class <code>fa fa-angle-right</code> for a basic arrow icon or <code>fa fa-check</code> for a check mark.</p>
+			<p><strong>See a full list of icons:</strong> <br><br><a href="http://fortawesome.github.io/Font-Awesome/" target="_blank">Font Awesome Icons</a></p>
+
+			<div class="clear"></div>
+			<a name="slider_revolution_settings"></a>
+			<h5><strong>Slider Revolution - Slide Shows</strong> <span>(Slider Revolution)</span></h5>
+			<p>The theme includes the incredible "Revolution Slider" plugin, integrated directly with the theme. This allows you to create dynamic slide shows that are mobile friendly, responsive and SEO optimized. There is nothing required to be installed or uploaded to begin using the slider.</p>
+
+			<p><img src="images/slider-revolution-sample.png" alt="Slider Revolution"></p>
+
+			<p>You can find slide show documentation in the following areas:</p>
+			<ul>
+				<li><a href="http://codecanyon.net/item/slider-revolution-responsive-wordpress-plugin/2751380" target="_blank">Plugin information</a></li>
+				<li>Creating a New Slider <a href="http://www.themepunch.com/codecanyon/revolution_wp/liveguide/02.video.html" target="_blank">http://www.themepunch.com/codecanyon/revolution_wp/liveguide/02.video.html</a></li>
+				<li>Layout Styles <a href="http://www.themepunch.com/codecanyon/revolution_wp/liveguide/03.video.html" target="_blank">http://www.themepunch.com/codecanyon/revolution_wp/liveguide/03.video.html</a></li>
+			</ul>
+
+			<p><img src="images/slider-revolution-main.png" alt="Slider Revolution - Home"></p>
+	
+			<h6>Demo Slide Show</h6>
+			<p>When the theme is activated the default slide show from the demo site should be automatically added to your site. If you do not see the demo slide show, go to the Revolution Slider menu in your admin and try refreshing the page.</p>
+			<!-- <p>If the demo slide show does not appear you can import it from an included demo content file. First, click "Create New Slider" and add the title "Home Page" with the alias "home-page" then save.</p> -->
+			<p><img src="images/slider-revolution-new.png" alt="Slider Revolution - New"></p>
+			<!-- <p>Open the new slider to edit by clicking it's name. At the bottom of the screen click the link "Show Export/Import" and select the <code>vellum-demo-slider-import.txt</code> file from the downloaded theme package (under the WordPress folder) where the theme and demo content files were saved. This will import the default slide show.</p>
+			<p><img src="images/slider-revolution-import.png" alt="Slider Revolution - Import"></p> -->
+			<p>You may also need to specify the slide show in your home page header. Go to "Layout Manager" and click "Headers" to edit the "Home Page Header". Next select the content source as the desired slide show and save.</p>
+			<p><img src="images/layout-manager-select-home-slider.png" alt="Slider Revolution - Home Page Header"></p>
+
+			<div class="clear"></div>
+		</blockquote>
+
+		<a name="settings" class="sectionMargin"></a>
+		<h3><strong>Settings</strong> <a href="#top">top</a></h3>
+		<p>Configure some of your theme settings to customize your blog, portfolio, contact form and other content. These ares will be found under the &quot;<strong>Settings</strong>&quot; section of your WordPress admin.</p>
+
+		<hr>
+
+		<blockquote>
+
+			<h5><strong>Blog Options</strong> <span>(Settings &gt; Blog Options)</span></h5>
+			<p>Configure some of the blog display options found in <strong>"Settings &gt; Blog Options"</strong>. These options control the display of content on your blog post lists and single post pages.</p>
+
+			<p><strong>Blog Post List</strong></p>
+			<ul>
+				<li><strong>Default Template</strong> - The default blog display style.</li>
+				<li><strong>Default Grid Columns</strong> - If a grid layout is selected as the default, this allows you to set the number of columns.</li>
+				<li><strong>Use post excerpts</strong> - Show content excerpts on your blog pages. Unchecking this will display the full post in your post list.</li>
+				<li><strong>Excerpt length</strong> - The number of words in post excerpts, 250 max. Custom excerpts are not restricted by this setting. </li>
+				<li><strong>Read More Link</strong> - Optional link after post excerpts. Enter desired text for the link or for no link, leave blank or set to "-1". </li>
+				<li><strong>Image Width</strong> - The maximum post image width. Images will be scaled using this as a guide.</li>
+				<li><strong>Image Height</strong> - The maximum post image height. Images will be scaled using this as a guide.</li>
+				<li><strong>Show Post Format</strong> - Show or hide the post format icon in the blog list.</li>
+				<li><strong>Show Date</strong> - Show or hide the post date in the blog list.</li>
+				<li><strong>Show Categories</strong> - Show or hide the category list in the blog list.</li>
+				<li><strong>Show Comment Count</strong> - Show or hide the comment count in the blog list.</li>
+				<li><strong>Show Tags</strong> - Show or hide the tags list in the blog list.</li>
+			</ul>
+			<p><strong>Single Post</strong></p>
+			<ul>
+				<li><strong>Show Featured Image</strong> - Show image for current post on the single post page. Unchecking this will show post content only.</li>
+				<li><strong>Image Width</strong> - The maximum post image width. Images will be scaled using this as a guide.</li>
+				<li><strong>Image Height</strong> - The maximum post image height. Images will be scaled using this as a guide.</li>
+				<li><strong>Show Post Format</strong> - Show or hide the post format icon in the single post.</li>
+				<li><strong>Show Date</strong> - Show or hide the post date in the single post.</li>
+				<li><strong>Show Categories</strong> - Show or hide the category list in the single post.</li>
+				<li><strong>Show Comment Link</strong> - Show or hide the comment count in the single post.</li>
+				<li><strong>Show Post Navigation</strong> - Show or hide the next/previous post link options in the single post.</li>
+			</ul>
+			<p><img src="images/blog-options.png" alt="Blog Options"></p>
+
+			<p><strong>Post Formats</strong></p>
+			<p>Set the text for each blog Post Format as you like it to be displayed on the public website.
+			<ul>
+				<li><strong>Audio Format</strong></li>
+				<li><strong>Gallery Format</strong></li>
+				<li><strong>Image Format</strong></li>
+				<li><strong>Link Format</strong></li>
+				<li><strong>Quote Format</strong></li>
+				<li><strong>Video Format</strong></li>
+				<li><strong>General Format</strong></li>
+			</ul>
+			<p><img src="images/blog-options-post-formats.png" alt="Blog Options - Post Formats"></p>
+
+			<p><img src="images/blog-template-select.png" alt="Blog Template" class="align-left no-shadow">Blog pages can be specified by selecting one of the blog templates under the <strong>Pages Attributes &gt; Template</strong> options or using a <code>[blog]</code> shortcode.</p>
+			<p>When selecting a Template you can choose from multiple layouts. The settings for the post list will use the defaults specified in "<strong>Settings &gt; Blog Options</strong>". If using a <code>[blog]</code> the settings can be specified for each instance to override the defaults.</p>
+			<p><strong>You should NOT set a Template when using the <code>[blog]</code> shortcode.</strong></p>
+			<div class="clear"></div>
+
+			<h6>Blogs from Shortcodes</h6>
+			<p>The <code>[blog]</code> shortcode allows you to add a blog post list to any area of your site. The shortcode can have any parameters available in the <code>WP_Query</code> function. See a full list here: <a href="https://codex.wordpress.org/Class_Reference/WP_Query" target="_blank">WP_Query Parameters</a>.</p>
+			<p class="note">Array variables should be separated by commas: "value_1,value_2"<br><span style="font-weight:400">For example, [blog tag_slug__in="break,baking"] will query posts with tags "bread" or "baking".</span></p>
+			<p>The <code>[blog]</code> shortcode also accepts custom parameters:</p>
+			<ul>
+				<li>
+					<strong>template</strong>
+					<br>Specify the template name (with .php) for the layout. This accepts "blog-image-left" or "blog-image-top" (default).
+					<br><br>Example: <code>[blog template="blog-image-left"]</code>
+					<br><br>
+				</li>
+				<li>
+					<strong>paging</strong>
+					<br>Show the paging: &laquo; 1 2 &raquo; Values: true (default), false
+					<br><br>Example: <code>[blog paging="false"]</code>
+					<br><br>
+				</li>
+			</ul>
+
+
+			<h5><strong>Contact Forms</strong> <span>(Settings &gt; Contact Forms)</span></h5>
+			<p>Display your form with the <code>[contact_form]</code> shortcode. You can customize each instance with unique values for &quot;to&quot;, &quot;subject&quot; and &quot;thankyou&quot; in the form. Empty fields use the default settings established in the fields below.</p>
+			<ul>
+				<li><strong>Email To</strong> - The default address to deliver messages sent from contact forms.</li>
+				<li><strong>Subject</strong> - Enter the default email subject for contact form messages.</li>
+				<li><strong>Thank You Message</strong> - The &quot;thank you&quot; message visitors will see after sending. </li>
+				<li><strong>Button text</strong> - The text to appear on the send button. Default: &quot;Send&quot;</li>
+				<li><strong>Use CAPTCHA</strong> - Require CAPTCHA image verification?</li>
+			</ul>
+			<br>
+			<p><img src="images/contact-form-settings.png" alt="Contact Form"></p>
+
+			<h6>Contact Form Fields</h6>
+			<p>You can create new fields to add to your contact form. </p>
+			<ul>
+				<li><strong>Field title</strong> - The name of the field as it will be displayed in the form.</li>
+				<li><strong>Field key</strong> - This key is used to add the field to contact forms.</li>
+				<li><strong>Caption</strong> - You can add instructions or information for the user about this field. HTML code is allowed.</li>
+				<li><strong>Field type</strong>
+					<ul>
+						<li><strong>Text</strong> - A simple one line text input.</li>
+						<li><strong>Textarea</strong> - Plain text box for multiple lines of text.</li>
+						<li><strong>Select</strong> - A select list (drop down), using the names/values specified in the &quot;Values&quot; field below.</li>
+						<li><strong>Radio button (set)</strong> - A radio button set, where the user can select a single option. The list of values is specified below.</li>
+						<li><strong>Checkbox</strong> - Single checkbox.</li>
+						<li><strong>Hidden</strong> - A hidden field not seen by the user. Specify the value in the field below.</li>
+					</ul>
+				</li>
+				<li><strong>Values</strong> - Set the value of hidden fields here or they will contain no information. If your selected field type requires pre-defined options, such as radio buttons or select boxes, enter the values here as a comma separated list. For example, your values could be entered as Good, Better, Best.</li>
+				<li><strong>Required</strong> - Require users to enter a value?</li>
+				<li><strong>Required error message</strong> - Enter an optional error message for empty fields that are required.</li>
+				<li><strong>Minimum length</strong> - You can optionally specify a minimum number of characters allowed for this field.</li>
+				<li><strong>Maximum length</strong> - You can optionally specify a maximum number of characters allowed for this field.</li>
+				<li><strong>Validation</strong> - You can apply validation to some fields to ensure valid entries.</li>
+				<li><strong>Validation error message</strong> - Enter an optional error message for fields that fail validation.</li>
+				<li><strong>Input width</strong> - Optional. You can specify the width of the field in pixels. Does not apply to some input types.</li>
+				<li><strong>Input height</strong> - Optional. You can specify the height of the field in pixels. Does not apply to some input types.</li>
+			</ul>
+			<br>
+			<p><img src="images/contact-form-fields.png" alt="Contact Form - Fields"></p>
+
+			<h5><strong>Breadcrumbs</strong> <span>(Settings &gt; Breadcrumbs)</span></h5>
+			<p>Configure the apparance of breadcrumbs on your site. By default the breadcrumbs are shown on the top right of the default header.</p>
+			<p>Breadcrumbs can also be added into your site using the <code>[breadcrumbs]</code> shortcode.</p>
+			<p><img src="images/breadcrumbs.png" alt="Breadcrumbs"></p>
+
+			<a name="visual_composer_settings"></a>
+			<h5><strong>Visual Composer by WPBakery</strong> <span>(Settings &gt; Visual Composer)</span></h5>
+			<p>The theme integrates the awesome Visual Composer plugin from WPBakery for drag-and-drop content creation. There is nothing required to be installed or uploaded to begin using the Visual Composer. The default options can be configured from "<strong>Settings &gt; Visual Composer</strong>"</p>
+			<p><img src="images/visual-composer-settings.png" alt="Visual Composer - Settings"></p>
+			<p>You can find Visual Composer documentation in the following areas:</p>
+			<ul>
+				<li><a href="http://codecanyon.net/item/visual-composer-for-wordpress/242431" target="_blank">Plugin information</a></li>
+				<li><a href="http://wpbakery.com/learning/" target="_blank">WPBakery Learning Center</a></li>
+				<li><a href="http://kb.wpbakery.com/index.php?title=Visual_Composer" target="_blank">Visual Composer - Knowledge Base</a></li>
+			</ul>
+			<p>To use the Visual Composer in a page or post, click the "Visual Composer" button above the editor.</p>
+			<p><img src="images/visual-composer-button.png" alt="Visual Composer - Button"></p>
+			<p>This will load the Visual Composer interface which allows you to drag and drop your content with rich editors and other great widgets.</p>
+			<p><img src="images/visual-composer-editor.png" alt="Visual Composer - Editor"></p>
+
+			<div class="clear"></div>
+		</blockquote>
+
+		<a name="portfolio" class="sectionMargin"></a>
+		<h3><strong>Portfolios</strong> <a href="#top">top</a></h3>
+		<p><img src="images/portfolio-add-new.png" alt="Portfolio - Add New" class="align-left no-shadow">The theme includes a custom post type for creating portfolio items. To add new portfolio items go to the "<strong>Portfolio &gt; Add New</strong>" option in your admin menu.</p>
+		<p>You can specify the details for your portfolio item add it to categories which can be used to create a filtered portfolio page or list items from a specific category only.</p>
+
+		<div class="clear"></div>
+		<hr>
+
+		<blockquote>
+			<p><img src="images/portfolio-template-select.png" alt="Portfolio Template" class="align-left no-shadow">Portfolio pages can be specified from a standard WordPress page by selecting a portfolio template from the <strong>Pages Attributes &gt; Template</strong> options or using a <code>[portfolio]</code> shortcode. This will make a standard WP page display as a custom portfolio.</p>
+			<p>When selecting a Template you can choose from multiple layouts.</p>
+			<p><strong>You should NOT set a Template when using the <code>[portfolio]</code> shortcode.</strong></p>
+			<div class="clear"></div>
+
+			<h6>Portfolios from Shortcodes</h6>
+			<p>The <code>[portfolio]</code> shortcode allows you to add a portfolio to any area of your site. The shortcode can have any parameters available in the <code>WP_Query</code> function. See a full list here: <a href="https://codex.wordpress.org/Class_Reference/WP_Query" target="_blank">WP_Query Parameters</a>.</p>
+			<p class="note">Array variables should be separated with commas: "value_1,value_2"<br><span style="font-weight:400">For example, [portfolio post__in="12,9"] will query items with ID 12 and 9.</span></p>
+			<p>The <code>[portfolio]</code> shortcode also accepts custom parameters:</p>
+			<ul>
+				<li>
+					<strong>template</strong>
+					<br>Specify the template name (with .php) for the layout. This accepts "grid-rows", "grid-rows-filtered", "grid-staggered" and "grid-staggered-filtered".
+					<br><br>Example: <code>[portfolio template="grid-rows-filtered"]</code>
+					<br><br>
+				</li>
+				<li>
+					<strong>paging</strong>
+					<br>Show the paging: &laquo; 1 2 &raquo; Values: true (default), false
+					<br><br>Example: <code>[portfolio paging="false"]</code>
+					<br><br>
+				</li>
+				<li>
+					<strong>columns</strong>
+					<br>Specify a number of columns (default: 3).
+					<br><br>Example: <code>[portfolio columns="5"]</code>
+					<br><br>
+				</li>
+				<li>
+					<strong>taxonomy_slug</strong> and <strong>taxonomy_terms</strong>
+					<br>While not specific to the portfolio, these parameters are for custom taxonomies. They must BOTH be entered into the shortcode. This simplifies custom taxonomy queries. 
+					<br><br>Example: <br><code>[portfolio taxonomy_slug="portfolio-category" taxonomy_terms="print,music,video"]</code>
+					<br><br>
+				</li>
+			</ul>
+		</blockquote>
+
+		<a name="static_blocks" class="sectionMargin"></a>
+		<h3><strong>Static Blocks</strong> <a href="#top">top</a></h3>
+		<p>There is a custom post type called &quot;<strong>Static Content</strong>&quot; used to make reusable content areas for the site. After installing the theme you can import the demo content wich includes the default static blocks used for creating header, footer and sidebar content.</p>
+
+		<hr>
+
+		<blockquote>
+			<h5><strong>Using Static Content Blocks</strong></h5>
+			
+			<p>Static block content can be inserted into your Headers, Footers, Layouts and directly into other content using the shortcode: <code>[static_content id="id-or-slug"]</code></p>
+			<p>When inserting a static content block with the shortcode, the ID should be the slug for that block. The slug is found just below the title field when editing and appears as the end of the URL path to the page: <code>&quot;mysite/featured-products/&quot;</code></p>
+		</blockquote>
+
+		<blockquote>
+			<h5><strong>Static Block Widgets</strong></h5>
+			
+			<p><img src="images/static-block-widget-drag.png" alt="Static Block Widget - Drag" class="align-left">Static blocks may also be inserted using the Static Block widget. Drag the widget into any sidebar and select the desired block to use. You may also choose to optionally show the title.</p>
+			<!-- <p><img src="images/static-block-widget.png" alt="Static Block Widget" class="no-shadow"></p> -->
+
+		</blockquote>
+		<p>&nbsp;</p>
+
+		<a name="code_structure" class="sectionMargin"></a>
+		<h3><strong>Theme Code Structure</strong> <a href="#top">top</a></h3>
+		<p>The theme uses admin layouts to format your template files. You can specify additioal template files, post types and taxonomies to be selectable for custom layout options in the Layout Manager.</p>
+		<blockquote>
+			<h5>Template Files and Post Types</h5>
+			<p>In this template structure it is possible to include more files into the options of the Layout Manager by registering them with the theme. Most files like Custom Post Types are registered automatically by the theme. In some cases the theme is not able to register a file automatically, although it tries to automate this process as much as possible. When a new or custom template file needs to be registered you can add a reference to the "functions.php" file as showin in the example below:</p>
+			<pre><code># An example of registering a custom layout to a template file
+# -------------------------------------------------------------
+
+$sample_file = locate_template('taxonomy-sample.php'); 
+register_context( 'Sample', 'sample_tax', $sample_file);</code></pre>
+			<p>This information is replicated in greater detail in the theme admin Layout Manager area. If you need help or have questions, please visit our <a href="http://para.llel.us/support/" target="_blank">Help Center</a>.</p>
+		</blockquote>
+		<a name="css" class="sectionMargin"></a>
+		<h3>CSS Files and Structure <a href="#top">top</a></h3>
+		<p>There are several CSS files included with this theme, but only a few will be necessary for customization. The CSS files are all located in the root theme folder. The only exception to this is plugin specific style sheets which are located in a sub-folder named "css". Within that folder there is a sub-folder, "source".</p>
+		<p>The sub-folder, <strong>"css/source</strong>", contains the original CSS files with formatted code and comments. Only a some files are in this folder. These files might include the original CSS files for add-on scripts used in the design. If you find a CSS file that is uncommented and you need the original, check this folder.</p>
+		<blockquote>
+			<h4>Skin File Naming</h4>
+			<p>The skin CSS files are also formatted following a similar naming structure as templates and design files, however the file name is less important and does not dictate functionality for skins. These files are named with the prefix &quot;style-skin&quot;, for example &quot;<span class="file">style-skin-1.css</span>&quot;.</p>
+			<p>The theme recognizes new skin CSS files automatically by adding the following comment to the beginning of the file:</p>
+			<pre><code>/*
+	Skin Name: Skin 1
+*/</code></pre>
+			<p>The name you enter here is what will appear in the admin skin menu. Once you upload your new skin CSS file you will see the new skin automatically in your skins drop down menu.			</p>
+		</blockquote>
+		<a name="skin" class="sectionMargin"></a>
+		<h3>Skinning the Theme <a href="#top">top</a></h3>
+		<p>Each "skin" is controlled by a custom CSS file. These are located in the theme folder "<strong>parallelus-vellum</strong>". If you need to create custom graphics for you skin this can be done easily by using one of the files located in the "<strong>Design</strong>" folder included with the theme.</p>
+		<p>You can create a custom skin in a few minutes by duplicating an existing skin CSS file and editing the parameters. This can be a useful way to make structural changes to the theme design without modifying the core CSS files or theme templates.</p>
+		<blockquote>
+			<h4>To create a single skin for your site</h4>
+			<p>The best way to go about creating your own skin, is by starting from one of the pre-made skins included with the theme. An easy way to do this would be as follows:</p>
+			<ol>
+				<li>First, create a copy of an existing style sheet from the theme folder "<strong>style-skin-#.css</strong>", and increment the # to the next unused value. Update the skin name in the comments at the beginning of the file as well.</li>
+				<li>Open the new CSS file for your skin. Edit the styles or add your own custom styles.</li>
+				<li>Upload your new skin files to the theme folder "<strong>parallelus-vellum</strong>" on your server.</li>
+				<li>Select the new skin from a page or your default theme options &quot;<strong>Appearance &gt; Theme Options</strong>.</li>
+				<li>Save your settings and preview the new skin.</li>
+			</ol>
+		</blockquote>
+
+
+		<a name="special" class="sectionMargin"></a>
+		<h3>Special Features <a href="#top">top</a></h3>
+		<p>The theme includes various other features which can be helpful. Below is a list of these features.</p>
+		<blockquote>		
+			<h4><strong>Parallax Backgrounds</strong> <span>(Visual Composer &gt; Edit Row)</span></h4>
+			<p>You can add custom background colors, images and activate the parallax scrolling effect on the rows created using Visual Composer. To use these features, click the pencil icon tab for a Visual Composer row to open the edit row window. Withing that window you will see options for setting the background color, image and parallax specific settings.</p>
+			<p><img src="images/parallax-edit-button.png" alt="Visual Composer - Row Edit Button"></p>
+			<p>After clicking the edit button you will see the edit console with the custom background options.</p>
+			<p><img src="images/parallax-edit-modal.png" alt="Parallax Edit Window"></p>
+			<p>Adjust the settings as needed and experiment with the results. The inline help explains each feature, but the best way to understand each setting is to test it and see the result.</p><br>
+
+			<h4>Popup Links</h4>
+			<p>The lightbox included with the theme can easily be used to load content from other pages, websites, videos and images. Many of these features are covered by the shortcodes for portfolio and styled images, but you can also manually add these features. </p>
+			<h6>Load a web page using an iframe</h6>
+			<p>You can create links to other pages or sites and open them in an iframe two ways. </p>
+			<ul>
+				<li>Add the class &quot;iframe&quot;: <br>
+				<span class="code">&lt;a href=&quot;http://www.google.com&quot; <strong>class=&quot;iframe&quot;</strong>&gt;Google&lt;/a&gt;</span></li>
+				<li>Add &quot;#iframe&quot; to the URL: <br>
+				<span class="code">&lt;a href=&quot;http://www.google.com<strong>#iframe</strong>&quot;&gt;Google&lt;/a&gt;</span></li>
+			</ul>
+			<h6>Load an image or video</h6>
+			<p>You can create links to images and videos in two ways. </p>
+			<ul>
+				<li>Add the class &quot;popup&quot;: <br>
+					<span class="code">&lt;a href=&quot;myImage.jpg&quot; <strong>class=&quot;popup&quot;</strong>&gt;View My Image&lt;/a&gt;</span></li>
+				<li>Add &quot;#popup&quot; to the URL: <br>
+					<span class="code">&lt;a href=&quot;myImage.jpg<strong>#popup</strong>&quot;&gt;View My Image&lt;/a&gt;</span></li>
+			</ul>
+			<h6>Login popup</h6>
+			<p>Launch the login popup by setting a link URL to <code>#LoginPopup</code> and assigning the class <code>popup</code>. </p>
+			<p><img src="images/login-popup.png" alt="Login Popup"></p>
+			<ul>
+				<li>Standard link: <br>
+					<span class="code">&lt;a href=&quot;#LoginPopup&quot; <strong>class=&quot;popup&quot;</strong>&gt;Sign in&lt;/a&gt;</span><br><br></li>
+				<li>Add to the WordPress menu: <br>
+					Inclucing in the WordPress menu requires the same, the URL set to <code>#LoginPopup</code> and assigning the class <code>popup</code><br><br>
+					<img src="images/login-popup-in-menu.png" alt="Login Popup in WordPress menu" class="no-shadow"></li>
+			</ul>
+		</blockquote>
+
+		
+		<a name="plugins" class="sectionMargin"></a>
+		<h3>Plugins <a href="#top">top</a></h3>
+		<p>The theme supports many plugins, some are included with the theme and others can be optionally added if you choose.</p>
+			
+		<hr>
+
+		<h5>Included</h5>
+		<p>The following plugins are included in the theme. You will be automatically prompted to install these plugins when the theme is installed.</p>
+
+		<blockquote>
+
+			<!--  Visual Composer  -->
+			<h4><strong>Visual Composer</strong> <span><a href="http://vc.wpbakery.com/">Demo Website</a></span></h4>
+			<p>Visual Composer for WordPress is drag and drop frontend and backend page builder plugin that will save you tons of time working on the site content. You will be able to take full control over your WordPress site, build any layout you can imagine – no programming knowledge required.</p>
+			<h6>Documentation and Resources</h6>
+			<ul>
+				<li><a href="http://kb.wpbakery.com/index.php?title=Visual_Composer" target="_blank">Knowledge Base</a></li>
+			</ul>
+			<p>More about configuring Visual Composer, see the <a href="#visual_composer_settings">Visual Composer Settings</a> section.</p>
+			<hr>
+
+			<!--  Slider Revolution  -->
+			<h4><strong>Slider Revolution</strong> <span><a href="http://www.themepunch.com/codecanyon/revolution_wp/">Demo Website</a></span></h4>
+			<p>Create a responsive(mobile friendly) or fullwidth slider with must-see-effects and meanwhile keep or build your SEO optimization (all content always readable for search engines).</p>
+			<h6>Documentation and Resources</h6>
+			<ul>
+				<li><a href="http://codecanyon.net/item/slider-revolution-responsive-wordpress-plugin/2751380" target="_blank">Plugin information</a></li>
+				<li><a href="http://www.themepunch.com/codecanyon/revolution_wp/liveguide/02.video.html" target="_blank">Creating a New Slider</a></li>
+				<li><a href="http://www.themepunch.com/codecanyon/revolution_wp/liveguide/03.video.html" target="_blank">Layout Styles</a></li>
+			</ul>
+			<p>More about configuring Slider Revolution, see the <a href="#slider_revolution_settings">Slider Revolution Settings</a> section.</p>
+			<hr>
+
+			<!--  Go - Responsive Pricing & Compare Tables  -->
+			<h4><strong>Go - Responsive Pricing &amp; Compare Tables</strong> <span><a href="http://plugins.granthweb.com/go/">Demo Website</a></span></h4>
+			<p>If you like traditional Pricing Tables, but you would like get much more out of it, then this rodded product is a useful tool for you. Beside the usual pricing table style Videos (Youtube, Vimeo, Screenr) and Images are also supported with optional responsivity. It’s very easy and fast to create stunning tables and integrate them into your WordPress site using Admin Panel. You will surely find the one most appropriate for you, which can be customized in a few seconds.</p>
+			<hr>
+
+			<!--  CSS3 Responsive Web Pricing Tables Grids  -->
+			<h4><strong>CSS3 Responsive Web Pricing Tables Grids</strong> <span><a href="http://www.screenr.com/Z9S7">Demo Website</a></span></h4>
+			<p>CSS3 Responsive Web Pricing Tables Grids For WordPress is a pack of pure CSS3 Web Pricing Tables with 2 table styles and 20 predefined color versions that comes loaded with tons of options like extensive admin panel with live configuration, responsive mode configurator, plenty of options for table, columns, rows and table cells, sliding columns feature, expandable rows feature, active (popped-up) columns, hover states, table cell tooltips, columns ribbons, tick / cross icons and a lot of more.</p>
+		
+		</blockquote>
+		
+		<hr>
+		<h5>Optional</h5>
+		<p>The following plugins are optional. Using them will provide added functionality to the theme if you choose to install them.</p>
+
+		<blockquote>
+
+			<!--  WooCommerce  -->
+			<h4><strong>WooCommerce</strong> <span><a href="http://www.woothemes.com/woocommerce/">http://www.woothemes.com/woocommerce</a></span></h4>
+			<p>A complete eCommerce solution for Wordpress. The theme provedes advanced support for this plugin, including custom styles and functionality.</p>
+			<h6>Documentation and Resources</h6>
+			<ul>
+				<li><a href="http://docs.woothemes.com/documentation/plugins/woocommerce/getting-started/" target="_blank">Getting Started</a></li>
+				<li><a href="http://docs.woothemes.com/documentation/plugins/woocommerce/getting-started/installation-and-updating/" target="_blank">Installation</a></li>
+			</ul>
+			<hr>
+
+			<!--  bbPress  -->
+			<h4><strong>bbPress</strong> <span><a href="http://bbpress.org/">http://bbpress.org</a></span></h4>
+			<p>Provides advanced forums and discussion functionality. The theme provedes advanced support for this plugin, including custom styles and functionality.</p>
+			<h6>Documentation and Resources</h6>
+			<ul>
+				<li><a href="http://codex.bbpress.org/" target="_blank">Documentation</a></li>
+				<li><a href="http://codex.bbpress.org/step-by-step-guide-to-setting-up-a-bbpress-forum/" target="_blank">Installation</a></li>
+			</ul>
+			<hr>
+
+			<!--  BuddyPress  -->
+			<h4><strong>BuddyPress</strong> <span><a href="https://buddypress.org/">https://buddypress.org</a></span></h4>
+			<p>BuddyPress is Social Networking, the WordPress way. Easily create a fully featured social network inside your WordPress.org powered site. The theme provedes defaul support for this plugin.</p>
+			<h6>Documentation and Resources</h6>
+			<ul>
+				<li><a href="http://codex.buddypress.org/" target="_blank">Codex</a></li>
+				<li><a href="http://codex.buddypress.org/getting-started/" target="_blank">Getting Started</a></li>
+				<li><a href="http://codex.buddypress.org/getting-started/setting-up-a-new-installation/" target="_blank">Installation</a></li>
+			</ul>
+			<hr>
+
+			<!--  WPML  -->
+			<h4><strong>WPML</strong> <span><a href="http://wpml.org/">http://wpml.org</a></span></h4>
+			<p>WPML makes it easy to build multilingual sites and run them. It’s powerful enough for corporate sites, yet simple for blogs. The theme supports this plugin.</p>
+			<h6>Documentation and Resources</h6>
+			<ul>
+				<li><a href="http://wpml.org/documentation/" target="_blank">Documentation</a></li>
+				<li><a href="http://wpml.org/documentation/getting-started-guide/" target="_blank">Getting Started</a></li>
+				<li><a href="http://wpml.org/faq/install-wpml/" target="_blank">Installation</a></li>
+				<li><a href="http://wpml.org/documentation/faq/" target="_blank">FAQs</a></li>
+			</ul>
+
+		</blockquote>
+
+
+		<a name="suport" class="sectionMargin"></a>
+		<h3>Support <a href="#top">top</a></h3>
+		<p>If you have trouble using the theme or need a little help, we have a number of support tools available.</p>
+		<hr>
+
+		<p>Visit our <a href="http://para.llel.us/support/" target="_blank">Help Center</a> to find written and video tutorials, a dedicated support forum and expert support team members waiting to answer your questions.<p>
+		<p>
+			<a href="http://para.llel.us/support/tutorials/" target="_blank">Written Tutorials</a> <br>
+			<a href="http://para.llel.us/support/videos/" target="_blank">Video Tutorials</a> <br>
+			<a href="http://para.llel.us/support/" target="_blank">Support Forums</a>
+		</p>
+
+		<hr>
+		<p>Once again, thank you so much for purchasing this theme. If you need assistance or have questions please let us know and we'll be happy to help in any way we can.</p>
+		<p>Thank you,<br>
+			<strong>The Parallelus Team</strong></p>
+		<br />
+	</div>
+</div>
+</body>
+</html>

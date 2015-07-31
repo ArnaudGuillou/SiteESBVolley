@@ -1,0 +1,405 @@
+2015-01-16 - Fixes (v1.4.1)
+--------------------------------------------------------------
+
+ - Fixed typo in Video post format settings.
+ - Fixed Simple Content shortcode error message.
+ - Fixed menu item descriptions.
+ - Fixed Google Map as a row background.
+ - Fixed Add Images to Gallery button in Gallery post format.
+ - Fixed footer meta info in grid-style post lists.
+
+	- Modified files:
+		style.css
+		extensions/plugin-installer/plugins/js_composer-custom.php
+		extensions/post-formats/settings-object.php
+		extensions/post-formats/views/format-video.php
+		extensions/theme-utilities/theme-helpers.php
+		extensions/ubermenu/includes/UberMenuWalker.class.php
+		templates/vc_templates/vc_row.php
+		languages/de_DE.po
+		languages/en_US.po
+
+
+2015-01-01 - Copious updates, additions and fixes (v1.4)
+--------------------------------------------------------------
+
+ - Updated Visual Composer v4.3.5.
+ - Updated Slider Revolution v4.6.5.
+ - Updated Go - Responsive Pricing & Compare Tables for WP to v2.4.5.
+ - Updated Font Awesome to v4.2.0.
+ - Updated UberMenu Lite to v3.
+ - Updated Layout Manager for WordPress 4 compatibility.
+ - Updated framework and extensions.
+ - Added enhancements to Google Maps as row backgrounds.
+ - Added new element for inserting vertical space.
+ - Added new element for scrolling anchors.
+ - Added automatic strip script tags from Custom Javascript box.
+ - Fixed post navigation buttons not working when post title is hidden.
+ - Fixed close button in iframe popup lightbox.
+ - Fixed Font Awesome lists inside Icon Boxes not styled correctly.
+ - Fixed background images cut off on mobile at max screen height.
+ - Fixed pagination not working on static home page.
+ - Fixed portfolio filters not working properly in Firefox.
+ - Fixed contact form settings pages bugs.
+ - Fixed color options for Progress Bar element.
+ - Fixed single column Content Rotator linking to incorrect article.
+ - Fixed Blank Page template not working properly and also causing a JavaScript error.
+ - Fixed Use Excerpt option not working with Post List and Portfolio in single posts.
+ - Fixed masthead sidebar areas always hidden on iPad.
+ - Fixed WPML not displaying translated static blocks.
+
+	- Modified files:
+		style-skin-1.css
+		style-skin-2.css
+		style-skin-3.css
+		style-skin-4.css
+		style-skin-5.css
+		style-skin-6.css
+		style-skin-7.css
+		style.css
+		assets/css/fonts.css
+		assets/fonts/fontawesome-webfont.eot
+		assets/fonts/fontawesome-webfont.svg
+		assets/fonts/fontawesome-webfont.ttf
+		assets/fonts/fontawesome-webfont.woff
+		assets/fonts/FontAwesome.otf
+		assets/js/onLoad.js
+		data/
+		extensions/
+		framework/
+		templates/blog-image-left.php
+		templates/blog-image-top.php
+		templates/blog.php
+		templates/grid-rows-filtered.php
+		templates/grid-staggered-filtered.php
+		templates/page-blank.php
+		templates/vc_templates/vc_row.php
+
+
+2014-08-13 - Plugin update (v1.3.4.3)
+--------------------------------------------------------------
+
+ - Updated Slider Revolution v4.5.95.
+ - Fixed portfolio filters animation running twice.
+
+	- Modified files:
+		functions.php
+		style.css
+
+
+2014-07-04 - Plugin updates (v1.3.4.2)
+--------------------------------------------------------------
+
+ - Updated Visual Composer v4.2.3.
+ - Updated Slider Revolution v4.5.7.
+ - Updated CSS3 Responsive Web Pricing Tables Grids to v9.6.
+ - Updated Go - Responsive Pricing & Compare Tables for WP to v2.4.2.
+
+	- Modified files:
+		style.css
+
+
+2014-04-30 - Minor fix (v1.3.4.1)
+--------------------------------------------------------------
+
+ - Fixed logo justification in vertical masthead.
+ 
+	- Modified files:
+		assets/js/onLoad.js
+		style.css
+
+
+2014-04-28 - Minor updates (v1.3.4)
+--------------------------------------------------------------
+
+ - Updated Visual Composer v4.1.2.
+ - Updated Slider Revolution v4.3.8.
+ - Updated button styles for new Visual Composer classes.
+ - Added minor style updates.
+ - Added option to hide buttons in Simple Content shortcode.
+ - Added error checking for new Visual Composer functions.
+ - Fixed row class styles from Visual Composer not applied to Static Blocks.
+ - Fixed horizontal masthead logo in IE8.
+ - Fixed vertical masthead bottom gradient.
+ 
+	- Modified files:
+		templates/vc_templates/vc_row.php
+		extensions/theme-utilities/custom-css.php
+		extensions/plugin-installer/plugins/js_composer-custom.php
+		extensions/plugin-installer/plugins/js_composer.zip
+		extensions/plugin-installer/plugins/revslider.zip
+		header.php
+		style.css
+
+
+2014-04-21 - Updates (v1.3.3)
+--------------------------------------------------------------
+
+ - Added login popup to commments login.
+ - Added help text for "-1" setting for no excerpt.
+ - Updated to Slider Revolution v4.3.6.
+ - Upated to Visual Composer v4.1.1.1.
+ - Updated help text for Icon Box element.
+ - Updated Layout Manager and included Static Blocks as content source.
+ - Improved error checking with fade in content feature.
+ - Improved footer of image post format in grid display.
+ - Fixed long titles not wrapping in IE8.
+ - Fixed scrollbars in login popup.
+ - Fixed conflict with Jetpack plugin.
+ - Fixed margin bottom on portfolio with no title or excerpt.
+ - Fixed margins on page comments.
+ - Fixed ellipsis added to posts with no excerpt.
+ - Fixed blog page template (WP default) not applying.
+ - Fixed typos in Edit Icon and Theme Options.
+ - Fixed blog template (WP default) setting for excerpts.
+ - Fixed Portfolio template (WP default) showing blank page.
+ - Fixed footer default sidebar display.
+ - Fixed Google font reference in default Resort slide show.
+ 
+	- Modified files:
+		templates/blog-image-left.php
+		templates/blog-image-top.php
+		templates/page-blank.php
+		templates/vc_templates/vc_row.php
+		framework/includes/load-functions.php
+		extensions/theme-utilities/custom-js.php
+		extensions/theme-utilities/demo-data.php
+		extensions/theme-utilities/theme-helpers.php
+		extensions/theme-utilities/theme-options-filters.php
+		extensions/plugin-installer/
+		extensions/layout-manager/
+		data/
+		assets/js/onLoad.js
+		assets/css/ie.css
+		style.css
+		
+				
+2014-04-17 - Plugin update (v1.3.2)
+--------------------------------------------------------------
+
+ - Updated Visual Composer v4.1.
+ 
+	- Modified files:
+		extensions/plugin-installer/
+		style.css
+
+		
+2014-04-04 - Bug Fix (v1.3.1)
+--------------------------------------------------------------
+
+ - Added minor style update to portfolio margins. 
+ - Removed old data files. 
+ - Fixed reset of category and custom post type layouts.
+ 
+	- Modified files:
+		data/
+		framework/includes/load-functions.php
+		style.css
+
+
+2014-04-03 - Updates (v1.3)
+--------------------------------------------------------------
+
+ - NEW! Starter Kits feature.
+ - NEW! 1 Click Demo Install feature.
+ - Added general style improvements.
+ - Added iPad helper classes: 'visible-ipad' and 'hidden-ipad'
+ - Updated Visual Composer v4.0.4.
+ - Updated Slider Revolution v4.3.3.
+ - Updated default data structure.
+ - Updated styles for Visual Composer changes.
+ - Updated missing strings in translation file.
+ - Fixed logo not visible in IE8.
+ - Fixed full screen slideshow display in IE8.
+ - Fixed scroll to top for WP admin bar offset.
+ - Fixed blank page template height on IE.
+ - Fixed sub-menus overlaying masthead on small screens.
+ - Fixed text inputs showing "array" on new child themes.
+ - Fixed blog layout left not showing titles when no media attached.
+ - Fixed https security warning on @import rules.
+ - Fixed quote post format background color gaps in grid layout.
+ - Fixed link and hover colors in theme options.
+ - Fixed sidebars not deleting.
+ - Fixed plugin install message on child themes.
+ - Fixed show featured image not disabling from blog settings.
+ - Fixed mobile display not 100% if content width set to smaller percentage.
+ - Fixed mobile menu position issue.
+ 
+	- Modified files:
+		assets/css/ubermenu.lite.css
+		assets/css/ie.css
+		assets/js/onLoad.js
+		data/
+		extensions/contact-fields/admin.php
+		extensions/contact-fields/inc/functions.php
+		extensions/contact-fields/views/default-options.php
+		extensions/demo-content/
+		extensions/layout-manager/
+		extensions/plugin-installer/
+		extensions/sidebars/admin.php
+		extensions/theme-utilities/demo-data.php
+		extensions/theme-utilities/custom-css.php
+		framework/
+		templates/post.php
+		templates/post-video.php
+		templates/post-audio.php
+		functions.php
+		style-skin-1.css
+		style-skin-2.css
+		style-skin-3.css
+		style-skin-4.css
+		style-skin-5.css
+		style-skin-6.css
+		style-skin-7.css
+		style.css
+
+
+2014-03-18 - Minor Bug Fix (v1.2.1)
+--------------------------------------------------------------
+
+ - Added minor style updates. 
+ - Updated to Slider Revolution v4.2.6. 
+ - Fixed custom menu font controls.
+ - Fixed default blog template on home page.
+ 
+	- Modified files:
+		data/
+		extensions/plugin-installer/
+		extensions/theme-utilities/custom-css.php
+		archive.php
+		functions.php
+		index.php
+		style.css
+		
+
+2014-03-14 - Updates (v1.2)
+--------------------------------------------------------------
+
+ - Added better controls for font sizes, colors and more.
+ - Added option to hide search in main menu (masthead).
+ - Added option for custom placeholder text in main menu search input.
+ - Added extra settings for docked navigation and responsive support for mobile. 
+ - Added field for custom logo on mobile devices for responsive display.
+ - Added Visual Composer v4.0.x style adjustments.
+ - Added tablet and iPad specific style and functionality improvements.
+ - Added default accent colors for skins to new image overlay effects.
+ - Added "dismiss" option to plugin installer recommended items.
+ - Updated plugin Revolution Slider to v4.2.5.
+ - Updated plugin Visual Composer to v4.0.2.
+ - Updated plugin installer to include "recommended" plugins.
+ - Updated mobile styling for WooCommerce. 
+ - Updated organization of Theme Options display.
+ - Updated various minor style adjustments.
+ - Fixed styles in WooCommerce shopping cart.
+ - Fixed blurry backgrounds on iPad.
+ - Fixed full width backgrounds in Visual Composer v4.0.x.
+ - Fixed file upload data type overwriting other fields.
+ - Fixed issue with saving new layouts and deleting existing layouts. 
+ - Fixed blog header display for posts without featured image.
+ - Fixed conflict with UberMenu Pro navigation display vertical/horizontal.
+ - Fixed layout manager "Allow Override" feature for page specific changes.
+ - Fixed logo display in Firefox for skin 6.
+ 
+	- Modified files:
+		assets/css/ubermenu.lite.css
+		assets/js/onLoad.js
+		data/
+		data-types/data-type.php
+		data-types/fileupload-type.php
+		extensions/layout-manager/
+		extensions/plugin-installer/
+		extensions/theme-utilities/custom-css.php
+		extensions/theme-utilities/custom-js.php
+		extensions/theme-utilities/theme-helpers.php
+		extensions/ubermenu/load.php
+		framework/css/styles.css
+		framework/includes/load-functions.php
+		framework/load.php
+		templates/post.php
+		templates/post-gallery.php
+		header.php
+		style.css
+		style-skin-1.css
+		style-skin-2.css
+		style-skin-3.css
+		style-skin-4.css
+		style-skin-5.css
+		style-skin-6.css
+		style-skin-7.css
+
+
+2014-03-06 - Updates (v1.1)
+--------------------------------------------------------------
+
+ - NEW! Pricing tables: "Go - Responsive Pricing & Compare Tables"
+ - NEW! Pricing tables: "CSS3 Responsive Web Pricing Tables Grids" 
+ - Added scroll to top button.
+ - Added more image overlay effects.
+ - Updated responsive styling of woocommerce.
+ - Updated demo layouts and options pages.
+ - Updated WP thumbnail sizes.
+ - Updated demo content import file.
+ - Updated translation files.
+ - Fixed Visual Composer registration notice.
+ - Fixed image upload input in WP Customizer interface.
+ - Fixed skin 4 and 7 links centering for non-mega-menus.
+ - Fixed logo scaling in vertical masthead with Firefox browsers.
+ - Fixed WPML display in WP menus.
+ - Fixed excerpts in Simple Content shortcodes.
+ - Fixed demo slideshows duplicated in child themes.
+ - Fixed negative letter spacing bug in Chrome.
+ 
+	- Modified files:
+		assets/js/onLoad.js
+		data/
+		data-types/fileupload-type.php
+		extensions/plugin-installer/plugins/
+		extensions/theme-utilities/custom-css.php
+		extensions/theme-utilities/demo-data.php
+		extensions/theme-utilities/theme-helpers.php
+		framework/css/styles.css
+		framework/includes/themes-manager/views/theme-conf.php
+		framework/includes/themes-manager/settings-object.php
+		framework/includes/load-functions.php
+		framework/load.php
+		languages/
+		footer.php
+		functions.php
+		header.php
+		style.css
+		style-skin-4.css
+		style-skin-7.css
+		
+
+2014-02-25 - Fixes and Minor Enhancements (v1.0.1)
+--------------------------------------------------------------
+
+ - Added minor style tweaks and adjustments. 
+ - Fixed conflicts with UberMenu Pro.
+ - Fixed error message in bbPress.
+ - Fixed home page pagination bug.
+ - Fixed error message during plugin install.
+ - Fixed issue preventing saving of theme options.
+ - Fixed issue with options reset.
+ - Fixed missing layouts and settings.
+ 
+	- Modified files:
+		data/
+		extensions/layout-manager/template-functions/meta-content-options.php
+		extensions/plugin-installer/object.php
+		extensions/theme-utilities/demo-data.php
+		extensions/theme-utilities/query-shortcode-class.php
+		extensions/ubermenu/load.php
+		framework/load.php
+		framework/libs/FormsBuilder.php
+		framework/includes/load-functions.php
+		framework/includes/options-builder/settings-object.php
+		header.php
+		style.css
+		style-skin-5.css
+
+
+2014-02-20 - Release (v1.0.0)
+--------------------------------------------------------------
+
+ - Nothing changed.
